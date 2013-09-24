@@ -1,4 +1,4 @@
 oF_exercises
 ============
 
-An array of different examples for oF
+This repository is intended to showcase different examples of oF
