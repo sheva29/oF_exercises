@@ -1,0 +1,15 @@
+<Widget>
+    <Kind>2</Kind>
+    <Name>Shape</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>particleSize</Name>
+    <Value>9.655172348</Value>
+</Widget>
+<Widget>
+    <Kind>4</Kind>
+    <Name>particleAngle</Name>
+    <Value>28.073890686</Value>
+</Widget>

@@ -1,0 +1,3 @@
+ofxMSAOpenCL
+ofxMSAPingPong
+ofxMSATimer

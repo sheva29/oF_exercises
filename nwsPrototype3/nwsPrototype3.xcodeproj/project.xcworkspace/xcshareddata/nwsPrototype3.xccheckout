@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F1B56EF5-2A29-4211-A84D-2A426A2AC044</string>
+	<key>IDESourceControlProjectName</key>
+	<string>nwsPrototype3</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2F124C78-004A-4352-9FE5-187E30F0F28D</key>
+		<string>https://github.com/LordOfCorners/SymphonyCollab.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>nwsPrototype3/nwsPrototype3.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2F124C78-004A-4352-9FE5-187E30F0F28D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/LordOfCorners/SymphonyCollab.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2F124C78-004A-4352-9FE5-187E30F0F28D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2F124C78-004A-4352-9FE5-187E30F0F28D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SymphonyCollab</string>
+		</dict>
+	</array>
+</dict>
+</plist>
