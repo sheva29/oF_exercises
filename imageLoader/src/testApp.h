@@ -21,5 +21,8 @@ class testApp : public ofBaseApp{
     
         ofImage metroid[50];
         int frameNum, counter;
-		
+    
+        ofVec2f pos;
+    
+    
 };

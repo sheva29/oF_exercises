@@ -11,12 +11,14 @@ void testApp::setup(){
         string frameNum = ofToString(i);
         metroid[i].loadImage(frameNum + ".png");
     }
-
+    
+    pos = ofGetWindowSize() / 2;
 }
 
 //--------------------------------------------------------------
 void testApp::update(){
     
+    //This is all thanks to Jennifer Presto. A very quite clever piece of code that allows us to go back and forth through a number
     frameNum = abs( abs(49 - counter) - 49);
     counter++;
     
@@ -24,6 +26,8 @@ void testApp::update(){
         
         counter = 0;
     }
+    
+//    pos.x++;
 
 }
 
@@ -31,7 +35,8 @@ void testApp::update(){
 void testApp::draw(){
     
     ofSetRectMode(OF_RECTMODE_CORNER);
-    metroid[frameNum].draw(0, 0);
+    
+    metroid[frameNum].draw(pos.x, pos.y);
 
 }
 
