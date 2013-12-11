@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>67E5A914-77FB-48A3-9D9B-2E86D2FF8F47</string>
+	<key>IDESourceControlProjectName</key>
+	<string>week5_UI_controllers</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>604A594B-E3CA-4C78-9963-B96BB0FC2E36</key>
+		<string>https://github.com/sheva29/oF_exercises.git</string>
+		<key>87103A8C-4D66-4EEE-91D6-7A769DBCCA79</key>
+		<string>https://github.com/rezaali/ofxUI.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>week5_UI_controllers/week5_UI_controllers.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>604A594B-E3CA-4C78-9963-B96BB0FC2E36</key>
+		<string>../../..</string>
+		<key>87103A8C-4D66-4EEE-91D6-7A769DBCCA79</key>
+		<string>../../../../../addons/ofxUI</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sheva29/oF_exercises.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>604A594B-E3CA-4C78-9963-B96BB0FC2E36</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>604A594B-E3CA-4C78-9963-B96BB0FC2E36</string>
+			<key>IDESourceControlWCCName</key>
+			<string>oF_exercises</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>87103A8C-4D66-4EEE-91D6-7A769DBCCA79</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxUI</string>
+		</dict>
+	</array>
+</dict>
+</plist>

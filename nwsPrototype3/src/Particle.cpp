@@ -52,6 +52,9 @@ void Particle::draw(){
     
         ofTranslate(ofGetWindowWidth()/2, ofGetWindowHeight());
         ofFill();
+        
+         
+
         ofCircle(pos, size);
         
         

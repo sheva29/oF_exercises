@@ -73,8 +73,6 @@ void testApp::draw(){
     vector<Particle>::iterator it;
     for( it = particleList.begin(); it != particleList.end(); it++){
         
-        ofEnableAlphaBlending();
-        ofBackgroundGradient(50,0);
         it->draw();
     }
     
