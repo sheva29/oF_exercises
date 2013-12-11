@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "Enemy.h"
+#include "Galaxy.h"
 
 class testApp : public ofBaseApp{
 
@@ -22,8 +23,10 @@ class testApp : public ofBaseApp{
     
     Enemy enemy;
     float imageCounter;
-    ofFbo fbo;
+    ofFbo fbo, fboGalaxy;
     ofPixels pix;
     ofImage gif;
+    
+    Galaxy galaxy;
 		
 };

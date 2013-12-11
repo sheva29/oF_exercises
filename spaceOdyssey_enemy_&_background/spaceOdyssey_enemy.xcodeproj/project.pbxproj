@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6764F74118579277004F1639 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6764F73F18579277004F1639 /* Enemy.cpp */; };
 		6764F744185793A9004F1639 /* SpaceShip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6764F742185793A9004F1639 /* SpaceShip.cpp */; };
+		6785CF2D1858EEF200A37EFD /* Galaxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6785CF2B1858EEF200A37EFD /* Galaxy.cpp */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
@@ -66,6 +67,8 @@
 		6764F74018579277004F1639 /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
 		6764F742185793A9004F1639 /* SpaceShip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpaceShip.cpp; sourceTree = "<group>"; };
 		6764F743185793A9004F1639 /* SpaceShip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceShip.h; sourceTree = "<group>"; };
+		6785CF2B1858EEF200A37EFD /* Galaxy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Galaxy.cpp; sourceTree = "<group>"; };
+		6785CF2C1858EEF200A37EFD /* Galaxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Galaxy.h; sourceTree = "<group>"; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
@@ -197,6 +200,8 @@
 				6764F73F18579277004F1639 /* Enemy.cpp */,
 				6764F74018579277004F1639 /* Enemy.h */,
 				E4B69E1F0A3A1BDC003C02F2 /* testApp.h */,
+				6785CF2B1858EEF200A37EFD /* Galaxy.cpp */,
+				6785CF2C1858EEF200A37EFD /* Galaxy.h */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -298,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6764F74118579277004F1639 /* Enemy.cpp in Sources */,
+				6785CF2D1858EEF200A37EFD /* Galaxy.cpp in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				6764F744185793A9004F1639 /* SpaceShip.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* testApp.cpp in Sources */,

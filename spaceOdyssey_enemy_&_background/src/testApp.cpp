@@ -8,7 +8,8 @@ void testApp::setup(){
     enemy.setup();
     imageCounter = 0;
     
-    fbo.allocate(ofGetWindowWidth(), ofGetWindowHeight());
+//    fbo.allocate(ofGetWindowWidth(), ofGetWindowHeight());
+//    fboGalaxy.allocate( ofGetWindowWidth(), ofGetWindowHeight() );
     gif.loadImage("metroid.gif");
 
 }
@@ -24,19 +25,29 @@ void testApp::draw(){
     
     //This allows us to save the information of the fbo in a pixel buffer.
     {
+        //------------This is for the enemy--------------//
     fbo.begin();
     pix.clear();
     ofClear(0,0,0,0);
-    enemy.draw();
+//    enemy.draw();
     fbo.end();
     
     fbo.readToPixels(pix);
-    ofSaveImage(pix, ofToString(imageCounter) + ".png");
-//   ofSaveScreen(ofToString(imageCounter) + ".png");
+        //This function saves the pixel buffer into an image of our choosing, uncomment to save the enemy
+//    ofSaveImage(pix, ofToString(imageCounter) + ".png");
+
     fbo.draw(0,0);
     }
     ofSetRectMode(OF_RECTMODE_CORNER);
 //    gif.draw(0, 0);
+    
+    {
+        //------------This is for the galaxy--------------//
+        galaxy.drawGalaxy();
+        
+    }
+    
+    
 
 }
 
